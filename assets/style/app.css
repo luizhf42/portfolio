@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 * {
-	@apply font-sans;
+	@apply font-sans text-base xs:text-sm sm:text-lg md:text-xl;
 }
 
 body,
 #__nuxt {
-	@apply h-screen bg-[#ccc];
+	@apply h-screen bg-[#151515] px-2 xs:px-1;
 }
