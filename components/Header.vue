@@ -11,13 +11,6 @@
         <h3>Front-end Developer</h3>
       </div>
     </div>
-    <nav>
-      <ul>
-        <li><NuxtLink to="/techs">Techs</NuxtLink></li>
-        <li><NuxtLink to="/projects">Projects</NuxtLink></li>
-        <li><NuxtLink to="/social">Social</NuxtLink></li>
-      </ul>
-    </nav>
   </header>
 </template>
 
@@ -51,15 +44,6 @@ h3 {
 .row {
   @apply h-1 w-[100px] bg-white rounded-md;
 }
-
-ul {
-  @apply gap-4 px-3 py-5 bg-[#5bff3a99] rounded-xl hidden md:flex;
-}
-
-a {
-  @apply drop-shadow-sm text-lg;
-}
-
 /* .router-link-active {
   @apply font-semibold;
 } */
