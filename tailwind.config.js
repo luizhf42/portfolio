@@ -21,6 +21,11 @@ module.exports = {
 			lg: "1024px",
 			xl: "1280px",
 		},
+		colors: {
+			background: "#151515",
+			white: "#ffffff",
+			accent: "#5bff3a99",
+		},
 	},
 	plugins: [],
 };
