@@ -14,14 +14,23 @@
 }
 
 .outer-menu {
-  @apply w-3/5;
+  @apply w-full;
 }
 .outer-menu ul {
-  @apply flex sm:hidden items-center gap-6 w-full;
+  @apply flex sm:hidden items-center gap-6;
 }
 
 a {
-  @apply text-xl text-accent text-opacity-80;
+  @apply relative text-xl text-accent text-opacity-80;
+}
+
+a::before {
+  content: "";
+  @apply absolute w-full h-[4px] rounded-[4px] bg-accent bottom-0 left-0 origin-right scale-x-0 duration-300 ease-in-out;
+}
+
+a:not(.router-link-active):hover::before {
+  @apply origin-left scale-100;
 }
 
 .router-link-active {
