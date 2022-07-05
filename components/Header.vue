@@ -1,50 +1,51 @@
 <template>
   <header>
-    <div class="main">
+    <div class="media">
       <img
         src="~/assets/images/turtle.png"
         alt="My signature, a turtle emoji"
       />
       <div class="text">
-        <h2>Luiz Henrique</h2>
+        <h2 class="heading" v-if="userIsOnIndexPage">Luiz Henrique</h2>
+        <NuxtLink class="heading" to="/" v-else>Go home 🏡</NuxtLink>
         <div class="row"></div>
-        <h3>Front-end Developer</h3>
+        <NavigationMenu class="inner-menu" />
       </div>
     </div>
+    <NavigationMenu class="outer-menu" />
   </header>
 </template>
 
 <script setup lang="ts">
+const userIsOnIndexPage = ref<boolean>(true);
+
+if (process.client)
+  userIsOnIndexPage.value = window.location.pathname == "/" ? true : false;
 </script>
 
 <style lang="postcss" scoped>
 header {
-  @apply w-full max-w-[1000px] mx-auto h-40 max-h-[180px] flex items-center justify-between text-white;
+  @apply w-full max-w-[1000px] mx-auto h-28 sm:h-40 max-h-[160px] flex flex-col items-start justify-center text-white;
 }
-.main {
+.media {
   @apply h-full flex items-center gap-3;
 }
 
 img {
-  @apply h-[65%];
+  @apply min-h-[80px] h-[65%] mr-2;
 }
 
 .text {
-  @apply h-[100%] flex flex-col justify-center gap-[5px];
+  @apply h-[100%] flex flex-col justify-center gap-[3px];
 }
 
-h2 {
+.heading {
   @apply text-2xl font-bold;
 }
-
-h3 {
-  @apply text-[1.1rem];
+a.heading {
+  @apply font-normal;
 }
-
 .row {
   @apply h-1 w-[100px] bg-white rounded-md;
 }
-/* .router-link-active {
-  @apply font-semibold;
-} */
 </style>
