@@ -24,7 +24,7 @@ module.exports = {
 		colors: {
 			background: "#151515",
 			white: "#ffffff",
-			accent: "#5bff3a99",
+			accent: "#5bff3a",
 		},
 	},
 	plugins: [],
