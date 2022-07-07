@@ -8,9 +8,9 @@
 
 body,
 #__nuxt {
-	@apply h-screen bg-background px-2 xs:px-1 overflow-hidden;
+	@apply min-h-screen bg-background px-2 xs:px-1;
 }
 
 #__nuxt {
-	@apply mx-auto max-w-[1000px];
+	@apply pb-4 mx-auto max-w-[1000px];
 }
