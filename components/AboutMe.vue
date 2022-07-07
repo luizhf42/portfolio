@@ -34,7 +34,7 @@
 <style lang="postcss" scoped>
 section {
   @apply bg-aboutMe text-white py-8 px-6 w-full sm:text-justify rounded-2xl;
-  box-shadow: rgba(16, 20, 16, 0.35) 0px 5px 15px;
+  box-shadow: #10141059 0px 5px 15px;
 }
 
 h1 {
