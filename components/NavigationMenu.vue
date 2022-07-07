@@ -21,7 +21,7 @@
 }
 
 a {
-  @apply relative text-xl text-accent text-opacity-80;
+  @apply relative text-xl text-linkAccent;
 }
 
 a::before {
@@ -34,6 +34,6 @@ a:not(.router-link-active):hover::before {
 }
 
 .router-link-active {
-  @apply font-bold text-opacity-100;
+  @apply font-bold text-accent;
 }
 </style>
