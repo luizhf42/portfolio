@@ -17,7 +17,7 @@
   @apply w-full;
 }
 .outer-menu ul {
-  @apply flex sm:hidden items-center gap-6;
+  @apply flex sm:hidden items-center gap-6 xs:justify-center;
 }
 
 a {
