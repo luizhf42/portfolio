@@ -1,3 +1,5 @@
 <template>
-  <NuxtLayout name="main"> index </NuxtLayout>
+  <NuxtLayout name="main">
+    <AboutMe />
+  </NuxtLayout>
 </template>
