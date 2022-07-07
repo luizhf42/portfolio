@@ -5,7 +5,9 @@
 <script lang="ts" setup>
 // @ts-ignore
 useHead({
+  title: "LH's Portfolio",
   link: [
+    { rel: "icon", type: "image/png", href: "./app-favicon.png" },
     { rel: "preconnect", href: "https://fonts.googleapis.com" },
     {
       rel: "preconnect",
