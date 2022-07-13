@@ -6,8 +6,11 @@
         alt="My signature, a turtle emoji"
       />
       <div class="text">
-        <h2 class="heading" v-if="userIsOnIndexPage">Luiz Henrique</h2>
-        <NuxtLink class="heading" to="/" v-else>Go home 🏡</NuxtLink>
+        <!-- Wrapper to prevent a v-else bug that duplicates the .row div and the navigation menu -->
+        <div>
+          <h2 class="heading" v-if="userIsOnIndexPage">Luiz Henrique</h2>
+          <NuxtLink class="heading" to="/" v-else>Go home 🏡</NuxtLink>
+        </div>
         <div class="row"></div>
         <NavigationMenu class="inner-menu" />
       </div>
