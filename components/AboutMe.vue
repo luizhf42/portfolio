@@ -33,7 +33,7 @@
 
 <style lang="postcss" scoped>
 section {
-  @apply bg-aboutMe text-white py-8 px-6 w-full sm:text-justify rounded-2xl;
+  @apply bg-contentWrapper text-white py-8 px-6 w-full sm:text-justify rounded-2xl;
   box-shadow: #10141059 0px 5px 15px;
 }
 
