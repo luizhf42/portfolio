@@ -17,7 +17,7 @@ module.exports = {
 			},
 			screens: {
 				xs: { max: "350px" },
-				sm: "640px",
+				sm: "660px",
 				md: "768px",
 				lg: "1024px",
 				xl: "1280px",
@@ -28,6 +28,14 @@ module.exports = {
 				white: "#ffffff",
 				accent: "#5bff3a",
 				linkAccent: "#5bff3acc",
+			},
+			gridTemplateRows: {
+				4: "repeat(4, 1fr)",
+				2: "repeat(2, 1fr)",
+			},
+			gridTemplateColumns: {
+				1: "repeat(1, min(100%, 350px))",
+				2: "repeat(2, 1fr)",
 			},
 		},
 	},
