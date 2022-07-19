@@ -29,7 +29,6 @@
   </NuxtLayout>
 </template>
 
-
 <style lang="postcss" scoped>
 section {
   @apply w-full mx-auto py-3 justify-center grid grid-rows-4 grid-cols-1 gap-y-8 sm:grid-rows-2 sm:grid-cols-2 sm:gap-x-24 sm:gap-y-20;

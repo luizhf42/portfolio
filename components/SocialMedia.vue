@@ -5,7 +5,7 @@
     rel="noopener noreferrer"
     class="wrapper"
   >
-    <img :src="`./assets/images/${socialMediaName.toLowerCase()}.svg`" />
+    <img :src="svgPath" />
     <h3>{{ socialMediaName }}</h3>
   </a>
 </template>
