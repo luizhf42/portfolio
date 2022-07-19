@@ -23,7 +23,7 @@ module.exports = {
 				xl: "1280px",
 			},
 			colors: {
-				aboutMe: "#101010",
+				contentWrapper: "#101010",
 				background: "#151515",
 				white: "#ffffff",
 				accent: "#5bff3a",
