@@ -3,7 +3,7 @@
     :href="socialMediaHref"
     target="_blank"
     rel="noopener noreferrer"
-    class="wrapper discord"
+    class="wrapper"
   >
     <img :src="`./assets/images/${socialMediaName.toLowerCase()}.svg`" />
     <h3>{{ socialMediaName }}</h3>
