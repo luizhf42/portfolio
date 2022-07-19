@@ -4,25 +4,25 @@
       <SocialMedia
         class="linkedin"
         socialMediaName="LinkedIn"
-        svgPath="./assets/images/linkedin.svg"
+        svgPath="~/assets/images/linkedin.svg"
         socialMediaHref="https://www.linkedin.com/in/luiz-henrique-felix"
       />
       <SocialMedia
         class="github"
         socialMediaName="GitHub"
-        svgPath="./assets/images/github.svg"
+        svgPath="~/assets/images/github.svg"
         socialMediaHref="https://github.com/luizhf42"
       />
       <SocialMedia
         class="discord"
         socialMediaName="Discord"
-        svgPath="./assets/images/discord.svg"
+        svgPath="~/assets/images/discord.svg"
         socialMediaHref="https://discordapp.com/users/368108586972348417"
       />
       <SocialMedia
         class="instagram"
         socialMediaName="Instagram"
-        svgPath="./assets/images/instagram.svg"
+        svgPath="~/assets/images/instagram.svg"
         socialMediaHref="https://www.instagram.com/luizhf42"
       />
     </section>
