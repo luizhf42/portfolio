@@ -1,3 +1,5 @@
 <template>
-  <NuxtLayout name="main"> projects </NuxtLayout>
+  <NuxtLayout name="main">
+    <p class="text-white">Not finished yet! Come back later.</p>
+  </NuxtLayout>
 </template>
