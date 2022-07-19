@@ -5,7 +5,7 @@
     rel="noopener noreferrer"
     class="wrapper discord"
   >
-    <img :src="svgPath" />
+    <img :src="`./assets/images/${socialMediaName.toLowerCase()}.svg`" />
     <h3>{{ socialMediaName }}</h3>
   </a>
 </template>
