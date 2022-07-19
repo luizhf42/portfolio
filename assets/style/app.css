@@ -12,5 +12,5 @@ body,
 }
 
 #__nuxt {
-	@apply pb-4 mx-auto max-w-[1000px];
+	@apply pb-4 mx-auto max-w-[1100px];
 }

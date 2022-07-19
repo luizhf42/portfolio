@@ -28,7 +28,7 @@ if (process.client)
 
 <style lang="postcss" scoped>
 header {
-  @apply w-full max-w-[1000px] mx-auto mb-10 sm:mb-8 h-28 sm:h-40 max-h-[160px] flex flex-col items-start justify-center text-white;
+  @apply w-full mx-auto mb-10 sm:mb-8 h-28 sm:h-40 max-h-[160px] flex flex-col items-start justify-center text-white;
 }
 .media {
   @apply h-full flex items-center gap-3;
