@@ -11,7 +11,7 @@
 </template>
 
 <script setup lang="ts">
-const props = defineProps({
+const socialMediaProps = defineProps({
   socialMediaName: String,
   socialMediaHref: String,
   svgPath: String,
