@@ -18,7 +18,7 @@ const props = defineProps({
 });
 
 const svgPath = computed(() => {
-  return `../assets/images/${props.socialMediaName.toLowerCase()}.svg`;
+  return `assets/images/${props.socialMediaName.toLowerCase()}.svg`;
 });
 </script>
 
