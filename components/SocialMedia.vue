@@ -14,11 +14,7 @@
 const props = defineProps({
   socialMediaName: String,
   socialMediaHref: String,
-  // svgPath: String,
-});
-
-const svgPath = computed(() => {
-  return `assets/images/${props.socialMediaName.toLowerCase()}.svg`;
+  svgPath: String,
 });
 </script>
 
