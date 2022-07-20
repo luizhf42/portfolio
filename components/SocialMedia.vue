@@ -3,7 +3,7 @@
     :href="socialMediaHref"
     target="_blank"
     rel="noopener noreferrer"
-    class="wrapper"
+    class="social-media"
   >
     <img :src="svgPath" />
     <h3>{{ socialMediaName }}</h3>
@@ -19,7 +19,7 @@ const props = defineProps({
 </script>
 
 <style lang="postcss" scoped>
-.wrapper {
+.social-media {
   @apply bg-contentWrapper text-white flex items-center justify-center gap-3 h-24 px-6 py-4 rounded-xl transition hover:border hover:scale-105;
 }
 
