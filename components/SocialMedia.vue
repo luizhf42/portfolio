@@ -1,19 +1,19 @@
 <template>
   <a
-    :href="socialMediaHref"
+    :href="href"
     target="_blank"
     rel="noopener noreferrer"
     class="social-media"
   >
     <img :src="svgPath" />
-    <h3>{{ socialMediaName }}</h3>
+    <h3>{{ name }}</h3>
   </a>
 </template>
 
 <script setup lang="ts">
 const socialMediaProps = defineProps({
-  socialMediaName: String,
-  socialMediaHref: String,
+  name: String,
+  href: String,
   svgPath: String,
 });
 </script>
