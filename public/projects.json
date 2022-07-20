@@ -1,0 +1,20 @@
+[
+	{
+		"emoji": "🍅",
+		"name": "Pomodoro App",
+		"description": "A simple  pomodoro app built with Nuxt 3 and TailwindCSS.",
+		"repositoryName": "pomodoro-app"
+	},
+	{
+		"emoji": "🎮️",
+		"name": "Pokédex",
+		"description": "Pokédex using the PokéAPI, built with plain JavaScript",
+		"repositoryName": "pokedex"
+	},
+	{
+		"emoji": "📝",
+		"name": "To-do App 2",
+		"description": "A simple to-do app (CRUD) built with Nuxt 3 and TailwindCSS.",
+		"repositoryName": "nuxt-todo-app"
+	}
+]
