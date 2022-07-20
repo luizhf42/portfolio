@@ -3,27 +3,27 @@
     <section>
       <SocialMedia
         class="linkedin"
-        socialMediaName="LinkedIn"
+        name="LinkedIn"
         svgPath="/linkedin.svg"
-        socialMediaHref="https://www.linkedin.com/in/luiz-henrique-felix"
+        href="https://www.linkedin.com/in/luiz-henrique-felix"
       />
       <SocialMedia
         class="github"
-        socialMediaName="GitHub"
+        name="GitHub"
         svgPath="/github.svg"
-        socialMediaHref="https://github.com/luizhf42"
+        href="https://github.com/luizhf42"
       />
       <SocialMedia
         class="discord"
-        socialMediaName="Discord"
+        name="Discord"
         svgPath="/discord.svg"
-        socialMediaHref="https://discordapp.com/users/368108586972348417"
+        href="https://discordapp.com/users/368108586972348417"
       />
       <SocialMedia
         class="instagram"
-        socialMediaName="Instagram"
+        name="Instagram"
         svgPath="/instagram.svg"
-        socialMediaHref="https://www.instagram.com/luizhf42"
+        href="https://www.instagram.com/luizhf42"
       />
     </section>
   </NuxtLayout>
