@@ -1,7 +1,15 @@
 <template>
   <NuxtLayout name="main">
-    <p class="text-white mb-8">Not finished yet! Come back later.</p>
     <section class="projects">
+      <p>
+        To see even more of my work, check my
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/luizhf42"
+          >GitHub</a
+        >!
+      </p>
       <ul>
         <Project
           v-for="project in projects"
@@ -21,6 +29,9 @@ import projects from "public/projects.json";
 </script>
 
 <style lang="postcss" scoped>
+p {
+  @apply text-white text-center text-xl font-semibold mb-6;
+}
 p > a {
   @apply main-content-a;
 }
