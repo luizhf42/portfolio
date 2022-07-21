@@ -6,6 +6,9 @@
 	.ellipsis {
 		@apply w-full whitespace-nowrap overflow-hidden text-ellipsis;
 	}
+	.main-content-a {
+		@apply text-xl text-linkAccent duration-300 hover:text-accent hover:underline;
+	}
 }
 
 * {
