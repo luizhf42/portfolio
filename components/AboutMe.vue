@@ -46,6 +46,6 @@ p {
 }
 
 a {
-  @apply text-xl text-linkAccent duration-300 hover:text-accent hover:underline;
+  @apply main-content-a;
 }
 </style>

@@ -21,4 +21,7 @@ import projects from "public/projects.json";
 </script>
 
 <style lang="postcss" scoped>
+p > a {
+  @apply main-content-a;
+}
 </style>
