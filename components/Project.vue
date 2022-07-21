@@ -26,7 +26,13 @@ const projectProps = defineProps({
 
 <style lang="postcss" scoped>
 .project {
-  @apply w-full bg-contentWrapper flex items-center mb-4 h-16 sm:h-24 rounded-xl overflow-hidden text-white;
+  @apply w-full bg-contentWrapper flex items-center mb-4 h-16 sm:h-24 rounded-xl overflow-hidden text-white pr-3;
+}
+
+.text,
+h3,
+a {
+  @apply ellipsis;
 }
 
 .emoji {
