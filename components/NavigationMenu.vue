@@ -25,8 +25,8 @@ a {
 }
 
 a::before {
-  content: "";
-  @apply absolute w-full h-[3px] rounded-[4px] bg-accent bottom-0 left-0 origin-right scale-x-0 duration-300 ease-in-out;
+  /* content: ""; */
+  @apply content-[""] absolute w-full h-[3px] rounded-[4px] bg-accent bottom-0 left-0 origin-right scale-x-0 duration-300 ease-in-out;
 }
 
 a:not(.router-link-active):hover::before {

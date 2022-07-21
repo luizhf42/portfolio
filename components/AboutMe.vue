@@ -33,8 +33,7 @@
 
 <style lang="postcss" scoped>
 section {
-  @apply bg-contentWrapper text-white py-8 px-6 w-full sm:text-justify rounded-2xl;
-  box-shadow: #10141059 0px 5px 15px;
+  @apply bg-contentWrapper text-white py-8 px-6 w-full sm:text-justify rounded-2xl shadow-[0px_5px_15px_#10141059];
 }
 
 h1 {
@@ -46,10 +45,6 @@ p {
 }
 
 a {
-  @apply text-xl text-linkAccent duration-300;
-}
-
-a:hover {
-  @apply text-accent underline;
+  @apply text-xl text-linkAccent duration-300 hover:text-accent hover:underline;
 }
 </style>
