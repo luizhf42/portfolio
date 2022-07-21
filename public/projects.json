@@ -1,9 +1,15 @@
 [
 	{
-		"emoji": "🍅",
-		"name": "Pomodoro App",
-		"description": "A simple  pomodoro app built with Nuxt 3 and TailwindCSS.",
-		"repositoryName": "pomodoro-app"
+		"emoji": "🔍️",
+		"name": "find a dev",
+		"description": "A GitHub User Search remaster, using Vue.js",
+		"repositoryName": "find-a-dev"
+	},
+	{
+		"emoji": "🔍️",
+		"name": "GitHub User Search",
+		"description": "An app using the GitHub Users API, built with plain JavaScript",
+		"repositoryName": "github-user-search"
 	},
 	{
 		"emoji": "🎮️",
@@ -12,8 +18,20 @@
 		"repositoryName": "pokedex"
 	},
 	{
+		"emoji": "🍅",
+		"name": "Pomodoro App",
+		"description": "A simple  pomodoro app built with Nuxt 3 and TailwindCSS.",
+		"repositoryName": "pomodoro-app"
+	},
+	{
+		"emoji": "🔗",
+		"name": "The Turtle Shortens!",
+		"description": "An URL shortener, using Bit.ly API and Vue.js",
+		"repositoryName": "turtle-shortens"
+	},
+	{
 		"emoji": "📝",
-		"name": "To-do App 2",
+		"name": "To-do App",
 		"description": "A simple to-do app (CRUD) built with Nuxt 3 and TailwindCSS.",
 		"repositoryName": "nuxt-todo-app"
 	}
