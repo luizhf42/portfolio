@@ -36,11 +36,11 @@ a {
 }
 
 .emoji {
-  @apply h-full aspect-square flex items-center justify-center text-4xl sm:text-5xl;
+  @apply h-full aspect-square flex items-center justify-center xs:text-3xl text-4xl sm:text-5xl;
 }
 
 h3 a {
-  @apply text-3xl font-bold xs:text-2xl sm:text-2xl hover:text-accent transition;
+  @apply text-[1.7rem] font-bold xs:text-2xl sm:text-2xl hover:text-accent transition;
 }
 
 p {
